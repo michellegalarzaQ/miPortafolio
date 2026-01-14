@@ -1,3 +1,270 @@
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.tag {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all .3s ease;
+}
+
+.tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,.12);
+}
+
+.frontend { background:#E8F0FE; color:#1A73E8; }
+.backend  { background:#EAF7F1; color:#0F9D58; }
+.database { background:#FFF3E0; color:#FB8C00; }
+.tools    { background:#F3E8FF; color:#7E57C2; }
+.role     { background:#FFE8EC; color:#D81B60; }
+
+.section-tag {
+  background:#D0E6FF;
+  color:#0D47A1;
+}
+
+.modules-list li {
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color .3s ease;
+}
+
+.modules-list li:hover {
+  background-color: rgba(30,144,255,.12);
+}
+
+
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button i {
+  font-size: 1rem;
+}
+
+.back-button:hover {
+  background-color: #e2e6ea;
+  color: #000;
+}
+
+
+
+
+/* Subtítulo */
+.member-info-content span {
+  color: #eaeaea;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+/* Botón Ver */
+.project-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(23, 162, 184, 0.9);
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 14px;
+  font-size: 0.75rem;
+}
+
+/* Ícono */
+.project-action i {
+  font-size: 0.75rem;
+}
+
+/* Card redondeado */
+.member {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+
+.about-img {
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.about-subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  text-align: justify;
+  max-width: 700px;   
+  line-height: 1.7;
+  color: #444;
+}
+
+
+.about-info {
+  list-style: none;
+  padding: 0;
+}
+
+.about-info li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.about-info i {
+  color: #17a2b8;
+  margin-right: 8px;
+}
+
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: rgba(5, 99, 188, 0.12);
+  color: #0563BC;
+  border-radius: 25px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-cv:hover {
+  background: #0563BC;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 18px 0;
+}
+
+.tag {
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #444; /* texto suave */
+}
+
+/* Colores pastel */
+.tag.frontend {
+  background-color: #f7cdd3; /* rosa pastel */
+}
+
+.tag.backend {
+  background-color: #cfd8f6; /* azul pastel */
+}
+
+.tag.database {
+  background-color: #cdeee6; /* verde menta pastel */
+}
+
+.tag.ui {
+  background-color: #fff1c1; /* amarillo pastel */
+}
+
+.tag.tools {
+  background-color: #e6e0f8; /* lavanda pastel */
+}
+
+.tag.role {
+  background-color: #d6f5ff; /* celeste pastel */
+}
+
+
+
+.modules-tag-wrapper {
+  display: flex;
+  margin: 18px 0 12px 0;
+}
+
+
+.tag.section-tag {
+  background-color: #cee0fb; /* azul pastel */
+  color: #1e3a8a;
+}
+
+.tag.section-tag:hover {
+  transform: translateY(-2px);
+}
+
+
+
 .modules-list {
   list-style-type: none;
   padding: 0;
@@ -7,7 +274,7 @@
   font-size: 16px;
   margin: 10px 0;
   padding: 8px 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #f4f4f4;
   transition: background-color 0.3s;
   display: flex;
@@ -20,9 +287,10 @@
 }
 
 .modules-list li:hover {
-  background-color: rgb(18% 38% 45%);
-  color: white;
+  background-color: #dbeafe; /* azul pastel */
+  color: #1e3a8a;
 }
+
 
 .modules-list li:hover i {
   color: white;
@@ -557,7 +825,7 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  /* background: color-mix(in srgb, var(--accent-color), transparent 20%); */
   text-decoration: none;
 }
 
@@ -656,35 +924,9 @@ h6 {
   --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 15px 0;
   position: relative;
-}
-
-.page-title h1 {
-  font-size: 28px;
-  font-weight: 700;
-  margin: 0;
-}
-
-.page-title .breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.page-title .breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.page-title .breadcrumbs ol li+li::before {
-  content: "/";
-  display: inline-block;
-  padding-right: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -804,14 +1046,10 @@ section,
 .hero .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 30%); */
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
-}
-
-.hero .social-links a:hover {
-  color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
@@ -1717,10 +1955,6 @@ section,
   color: var(--contrast-color);
 }
 
-.speakers .member .member-info-content h4 a:hover {
-  color: var(--accent-color);
-}
-
 .speakers .member .member-info-content span {
   font-style: italic;
   display: block;
@@ -1733,14 +1967,10 @@ section,
 }
 
 .speakers .member .social a {
-  transition: color 0.3s;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  /* transition: color 0.3s; */
+  /* color: color-mix(in srgb, var(--default-color), transparent 30%); */
   margin: 0 4px;
   display: inline-block;
-}
-
-.speakers .member .social a:hover {
-  color: var(--default-color);
 }
 
 .speakers .member .social i {
@@ -1752,6 +1982,4 @@ section,
   bottom: 0;
 }
 
-.social a:hover i {
-  color: var(--accent-color);
-}
+

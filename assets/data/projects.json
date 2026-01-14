@@ -1,0 +1,293 @@
+[
+    {
+      "id": "sem",
+      "title": "Parqueo y Tarifas",
+      "subtitle": "Sistema Web y Aplicación de Gestión Urbana",
+      "cardImage": "assets/img/systems/sem_img_1.png",
+      "detailTitle": "Parqueo y Tarifas del SEM",
+      "images": [
+        "assets/img/sem_img/53.png",
+        "assets/img/sem_img/54.png",
+        "assets/img/sem_img/55.png",
+        "assets/img/sem_img/56.png",
+        "assets/img/sem_img/57.png",
+        "assets/img/sem_img/58.png",
+        "assets/img/sem_img/59.png"
+      ],
+      "tags": [
+        { "name": "Angular", "type": "frontend", "delay": 100 },
+        { "name": "TypeScript", "type": "frontend", "delay": 200 },
+        { "name": "Flutter", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "Node.js", "type": "backend", "delay": 300 },
+        { "name": "Express", "type": "backend", "delay": 400 },
+        { "name": "MySQL", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación web para la gestión del estacionamiento municipal, permitiendo el control de zonas, tarifas y personal, optimizando el parqueo urbano.",
+        "Desarrollado con Flutter (arquitectura DDD), Angular y Node.js, autenticación JWT, arquitectura API REST, base de datos MySQL y despliegue con Docker."
+      ],
+      "modules": [
+        { "icon": "fa-users", "color": "#1e90ff", "text": "Personal" },
+        { "icon": "fa-map-marker-alt", "color": "#ff6347", "text": "Zonas" },
+        { "icon": "fa-road", "color": "#32cd32", "text": "Calles" },
+        { "icon": "fa-exclamation-triangle", "color": "#f1c40f", "text": "Restricciones" },
+        { "icon": "fas fa-qrcode", "color": "#27ae60", "text": "Pagos QR" },
+        { "icon": "fa-chart-line", "color": "#8e44ad", "text": "Reportes" }
+      ]
+    },
+    {
+      "id": "salud",
+      "title": "Citas y Referencias",
+      "subtitle": "Sistema Web y Aplicación de Gestión Médica",
+      "cardImage": "assets/img/systems/salud_img_1.png",
+      "detailTitle": "Citas y Referencias Médicas",
+      "images": [
+        "assets/img/salud_img/9.png",
+        "assets/img/salud_img/10.png",
+        "assets/img/salud_img/11.png",
+        "assets/img/salud_img/12.png",
+        "assets/img/salud_img/13.png",
+        "assets/img/salud_img/14.png",
+        "assets/img/salud_img/15.png",
+        "assets/img/salud_img/16.png",
+        "assets/img/salud_img/17.png",
+        "assets/img/salud_img/18.png",
+        "assets/img/salud_img/19.png"
+      ],
+      "tags": [
+        { "name": "Angular", "type": "frontend", "delay": 100 },
+        { "name": "TypeScript", "type": "frontend", "delay": 200 },
+        { "name": "Flutter", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "Node.js", "type": "backend", "delay": 300 },
+        { "name": "Sequelize", "type": "backend", "delay": 300 },
+        { "name": "Express", "type": "backend", "delay": 400 },
+        { "name": "PostgreSQL", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación móvil y web para reservar citas médicas, mejorando la gestión y comunicación de consultas.",
+        "Desarrollado con Flutter (arquitectura DDD), Angular y PrimeNG, backend con Node.js. Autenticación JWT, generación de PDFs con PDFMake y despliegue con Docker."
+      ],
+      "modules": [
+        { "icon": "fas fa-file-medical", "color": "#1e90ff", "text": "Rerencias" },
+        { "icon": "fas fa-user-md", "color": "#ff6347", "text": "Médicos" },
+        { "icon": "fas fa-cogs", "color": "#32cd32", "text": "Especialidades" },
+        { "icon": "fas fa-hospital-alt", "color": "#f1c40f", "text": "Consultorios" },
+        { "icon": "fas fa-file-medical", "color": "#27ae60", "text": "Fichas" },
+        { "icon": "fa-chart-line", "color": "#8e44ad", "text": "Reportes" }
+      ]
+    },
+    {
+      "id": "inspecciones",
+      "title": "Inspección Vehicular",
+      "subtitle": "Sistema Web de Inspecciones",
+      "cardImage": "assets/img/systems/gases_img_1.png",
+      "detailTitle": "Inspección de Gases Vehiculares",
+      "images": [
+        "assets/img/gases_img/20.png",
+        "assets/img/gases_img/21.png",
+        "assets/img/gases_img/22.png",
+        "assets/img/gases_img/23.png",
+        "assets/img/gases_img/24.png",
+        "assets/img/gases_img/25.png",
+        "assets/img/gases_img/26.png", 
+        "assets/img/gases_img/27.png",
+        "assets/img/gases_img/28.png"
+      ],
+      "tags": [
+        { "name": "Angular", "type": "frontend", "delay": 100 },
+        { "name": "TypeScript", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "Laravel", "type": "backend", "delay": 300 },
+        { "name": "Eloquent", "type": "backend", "delay": 300 },
+        { "name": "PostgreSQL", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación web para la gestión de inspecciones de gases vehiculares, con solicitudes en línea o presenciales, pagos con QR y consulta de placas.",
+        "Desarrollado con Clean Architecture, Angular (formularios reactivos) y Bootstrap 5, backend en Laravel. Autenticación JWT, Swagger, control de versiones con Git/GitHub y despliegue con Docker."
+      ],
+      "modules": [
+        { "icon": "fas fa-user-tie", "color": "#1e90ff", "text": "Personal" },
+        { "icon": "fas fa-building", "color": "#ff6347", "text": "Centros de Inspección" },
+        { "icon": "fas fa-calendar-check", "color": "#32cd32", "text": "Horarios" },
+        { "icon": "fas fa-paperclip", "color": "#f1c40f", "text": "Solicitudes" },
+        { "icon": "fas fa-qrcode", "color": "#27ae60", "text": "Pagos QR" },
+        { "icon": "fa-chart-line", "color": "#8e44ad", "text": "Reportes" }
+      ]
+    },
+    {
+      "id": "mascotas",
+      "title": "Amigos Fieles",
+      "subtitle": "Sistema Web de Mascotas",
+      "cardImage": "assets/img/systems/zoonosis_img_1.png",
+      "detailTitle": "Registro y Control de Mascotas",
+      "images": [
+        "assets/img/zoonosis_img/30.png",
+        "assets/img/zoonosis_img/31.png",
+        "assets/img/zoonosis_img/32.png",
+        "assets/img/zoonosis_img/33.png",
+        "assets/img/zoonosis_img/34.png",
+        "assets/img/zoonosis_img/35.png",
+        "assets/img/zoonosis_img/36.png",
+        "assets/img/zoonosis_img/37.png",
+        "assets/img/zoonosis_img/38.png",
+        "assets/img/zoonosis_img/39.png",
+        "assets/img/zoonosis_img/40.png",
+        "assets/img/zoonosis_img/41.png",
+        "assets/img/zoonosis_img/43.png",
+        "assets/img/zoonosis_img/44.png"       
+      ],
+      "tags": [
+        { "name": "React", "type": "frontend", "delay": 100 },
+        { "name": "JavaScript", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "Node.js", "type": "backend", "delay": 300 },
+        { "name": "Express", "type": "backend", "delay": 400 },
+        { "name": "Sequelize", "type": "backend", "delay": 400 },
+        { "name": "Jenkins", "type": "backend", "delay": 300 },
+        { "name": "MongoDB", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación web para el registro y seguimiento de mascotas, gestionando vacunaciones, adopciones y reportes de animales perdidos o encontrados.",
+        "Desarrollado con Clean Architecture, React y Bootstrap, backend en Node.js con Express. Autenticación JWT, documentación con Swagger, control de versiones con Git/GitHub y despliegue con Docker."
+      ],
+      "modules": [
+        { "icon": "fas fa-users", "color": "#1e90ff", "text": "Propietarios" },
+        { "icon": "fas fa-paw", "color": "#ff6347", "text": "Mascotas" },
+        { "icon": "fas fa-qrcode", "color": "#27ae60", "text": "Pagos QR" },
+        { "icon": "fas fa-syringe", "color": "#32cd32", "text": "Esterilización" },
+        { "icon": "fas fa-heart", "color": "#f1c40f", "text": "Vacunas" },
+        { "icon": "fas fa-search", "color": "#e67e22", "text": "Mascotas Extraviadas" },  
+        { "icon": "fab fa-whatsapp", "color": "#2980b9", "text": "Mensajes de WhatsApp" },
+        { "icon": "fa-chart-line", "color": "#8e44ad", "text": "Reportes" }
+      ]
+    },
+    {
+      "id": "informes",
+      "title": "Informes y Pagos",
+      "subtitle": "Sistema Web de Consultores",
+      "cardImage": "assets/img/systems/consultores_img_1.png",
+      "detailTitle": "Informes y Pagos de Consultores",
+      "images": [
+        "assets/img/consultores_img/46.png",
+        "assets/img/consultores_img/47.png",
+        "assets/img/consultores_img/48.png",
+        "assets/img/consultores_img/49.png",
+        "assets/img/consultores_img/50.png",
+        "assets/img/consultores_img/51.png",
+        "assets/img/consultores_img/52.png"   
+      ],
+      "tags": [
+        { "name": "Angular", "type": "frontend", "delay": 100 },
+        { "name": "TypeScript", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "Symfony", "type": "backend", "delay": 300 },
+        { "name": "PostgreSQL", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación web para la gestión de informes y pagos de consultores, simplificando la presentación de reportes mensuales y el procesamiento de pagos.",
+        "Desarrollado con Angular y PrimeNG, backend en Symfony. Autenticación JWT, documentación con Swagger, control de versiones con Git/GitHub, despliegue con Docker y Jenkins."
+      ],
+      "modules": [
+        { "icon": "fas fa-list-alt", "color": "#1e90ff", "text": "Requisitos" },
+        { "icon": "fas fa-chalkboard-teacher", "color": "#27ae60", "text": "Consultores" },
+        { "icon": "fas fa-file-alt", "color": "#32cd32", "text": "Contratos" },
+        { "icon": "fas fa-edit", "color": "#f1c40f", "text": "Solicitudes" },
+        { "icon": "fas fa-file", "color": "#e67e22", "text": "Documentos" },  
+        { "icon": "fa-chart-line", "color": "#8e44ad", "text": "Reportes" }
+      ]
+    },
+    {
+      "id": "teatros",
+      "title": "Teatros y Salones",
+      "subtitle": "Sistema Web de Teatros y Salones",
+      "cardImage": "assets/img/systems/teatros_img_1.png",
+      "detailTitle": "Reserva de Teatros y Salones",
+      "images": [
+        "assets/img/teatros_img/60.png",
+        "assets/img/teatros_img/61.png",
+        "assets/img/teatros_img/62.png",
+        "assets/img/teatros_img/63.png",
+        "assets/img/teatros_img/64.png",
+        "assets/img/teatros_img/65.png",
+        "assets/img/teatros_img/66.png" 
+      ],
+      "tags": [
+        { "name": "React", "type": "frontend", "delay": 100 },
+        { "name": "JavaScript", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "PHP", "type": "backend", "delay": 300 },
+        { "name": "Jenkins", "type": "backend", "delay": 300 },
+        { "name": "MySQL", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación web para la gestión y reserva de teatros y salones, optimizando la organización de eventos culturales y sociales.",
+        "Desarrollado con Arquitectura DDD, React y Bootstrap, backend en PHP. Autenticación JWT, documentación con Swagger, control de versiones con Git/GitHub y despliegue con Docker."
+      ],
+      "modules": [
+        { "icon": "fas fa-users", "color": "#f1c40f", "text": "Personal" },
+        { "icon": "fas fa-clipboard-list", "color": "#1e90ff", "text": "Solicitudes" },
+        { "icon": "fas fa-calendar-check", "color": "#27ae60", "text": "Eventos" },
+        { "icon": "fas fa-ban", "color": "#32cd32", "text": "Fechas restringidas" },
+        { "icon": "fa-chart-line", "color": "#8e44ad", "text": "Reportes" }
+      ]
+    },
+    {
+      "id": "servicios",
+      "title": "Servicios REST",
+      "subtitle": "Gestión de servicios web",
+      "cardImage": "assets/img/systems/api_rest_img.png",
+      "detailTitle": "API REST para gestión de servicios",
+      "images": [
+        "assets/img/api_rest_services_img/69.png",
+        "assets/img/api_rest_services_img/70.png",
+        "assets/img/api_rest_services_img/71.png",
+        "assets/img/api_rest_services_img/72.png",
+        "assets/img/api_rest_services_img/73.png",
+        "assets/img/api_rest_services_img/74.png",
+        "assets/img/api_rest_services_img/75.png",
+        "assets/img/api_rest_services_img/76.png",
+        "assets/img/api_rest_services_img/77.png",
+        "assets/img/api_rest_services_img/78.png",
+        "assets/img/api_rest_services_img/79.png"
+      ],
+      "tags": [
+        { "name": "Express", "type": "frontend", "delay": 100 },
+        { "name": "Node.js", "type": "database", "delay": 200 },
+        { "name": "PHP", "type": "backend", "delay": 300 },
+        { "name": "Laravel", "type": "tools", "delay": 300 },
+        { "name": "Symfony", "type": "role", "delay": 300 },
+        { "name": "Jest", "type": "frontend", "delay": 100 },
+        { "name": "Docker", "type": "database", "delay": 200 },
+        { "name": "MongoDB", "type": "backend", "delay": 300 },
+        { "name": "MySQL", "type": "tools", "delay": 300 },
+        { "name": "PostgreSQL", "type": "role", "delay": 300 }
+      ],
+      "description": [
+        "Backend especializado en APIs RESTful, con estructura organizada (controladores, servicios, modelos, middleware) y gestión de bases de datos mediante ORMs.",
+        "Autenticación y autorización con JWT, documentación con Swagger, control de versiones con Git/GitHub y despliegue con Docker y Jenkins."
+      ],
+      "modules": [
+        { "icon": "fas fa-concierge-bell", "color": "#f39c12", "text": "Servicios" },
+        { "icon": "fas fa-users", "color": "#3498db", "text": "Clientes" },
+        { "icon": "fas fa-calendar-alt", "color": "#27ae60", "text": "Reservas" },
+        { "icon": "fas fa-file-invoice-dollar", "color": "#8e44ad", "text": "Pagos" },
+        { "icon": "fas fa-chart-line", "color": "#e74c3c", "text": "Reportes" },
+        { "icon": "fas fa-server", "color": "#e67e22", "text": "API REST" }
+      ]
+    }
+  ]
+  
