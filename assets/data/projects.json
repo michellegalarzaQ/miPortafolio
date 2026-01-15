@@ -288,6 +288,121 @@
         { "icon": "fas fa-chart-line", "color": "#e74c3c", "text": "Reportes" },
         { "icon": "fas fa-server", "color": "#e67e22", "text": "API REST" }
       ]
+    },
+    {
+      "id": "ventas",
+      "title": "Ventas e Inventarios",
+      "subtitle": "Sistema Web y Aplicación de Ventas",
+      "cardImage": "assets/img/systems/ventas_img_1.png",
+      "detailTitle": "Control de Ventas e Inventarios",
+      "images": [
+        "assets/img/ventas_img/10.png",
+        "assets/img/ventas_img/18.png",
+        "assets/img/ventas_img/11.png",
+        "assets/img/ventas_img/12.png",
+        "assets/img/ventas_img/13.png",
+        "assets/img/ventas_img/14.png",
+        "assets/img/ventas_img/15.png",
+        "assets/img/ventas_img/16.png",
+        "assets/img/ventas_img/17.png"
+      ],
+      "tags": [
+        { "name": "Angular", "type": "frontend", "delay": 100 },
+        { "name": "TypeScript", "type": "frontend", "delay": 200 },
+        { "name": "Flutter", "type": "frontend", "delay": 200 },
+        { "name": "DDD", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "Node.js", "type": "backend", "delay": 300 },
+        { "name": "Jenkins", "type": "backend", "delay": 300 },
+        { "name": "PostgreSQL", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación web para la gestión de ventas e inventarios, que optimiza el control de productos, clientes y movimientos comerciales, integrando reportes para una mejor toma de decisiones.",
+        "Desarrollada con Flutter bajo arquitectura DDD, Angular y Node.js, utilizando autenticación JWT, servicios API REST, base de datos PostgreSQL y despliegue mediante Docker."
+      ],
+      "modules": [
+        { "icon": "fas fa-handshake", "color": "#c0392b", "text": "Cotizaciones" },
+        { "icon": "fas fa-user-tie", "color": "#2980b9", "text": "Clientes" },
+        { "icon": "fas fa-cash-register", "color": "#27ae60", "text": "Proveedores" },
+        { "icon": "fas fa-file-invoice-dollar", "color": "#f39c12", "text": "Cuentas por cobrar" },
+        { "icon": "fas fa-boxes-stacked", "color": "#8e44ad", "text": "Kardex" },
+        { "icon": "fas fa-chart-line", "color": "#16a085", "text": "Reportes" }
+      ]
+    },
+    {
+      "id": "cine",
+      "title": "Películas y Series",
+      "subtitle": "Aplicación de Películas y Series",
+      "cardImage": "assets/img/systems/cine_img_1.png",
+      "detailTitle": "Detalles de Películas y Series",
+      "images": [
+        "assets/img/systems/cine_img_1.png",
+        "assets/img/cine_img/1.png",
+        "assets/img/cine_img/2.png",
+        "assets/img/cine_img/3.png"
+      ],
+      "tags": [
+        { "name": "Flutter", "type": "frontend", "delay": 200 },
+        { "name": "DDD", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "PHP", "type": "backend", "delay": 300 },
+        { "name": "Jenkins", "type": "backend", "delay": 300 },
+        { "name": "PostgreSQL", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación para descubrir películas y series, con información detallada sobre sinopsis, elenco y calificaciones.",
+        "Desarrollada con Flutter siguiendo arquitectura DDD, backend en PHP, autenticación JWT, API REST, base de datos PostgreSQL y despliegue con Docker."
+      ],
+      "modules": [
+        { "icon": "fas fa-sign-in-alt", "color": "#e74c3c", "text": "Autenticación" },
+        { "icon": "fas fa-user-circle", "color": "#2980b9", "text": "Perfil" },
+        { "icon": "fas fa-tags", "color": "#27ae60", "text": "Categorías" },
+        { "icon": "fas fa-star", "color": "#f1c40f", "text": "Favoritos" },
+        { "icon": "fas fa-info-circle", "color": "#8e44ad", "text": "Detalles" }
+      ]
+    },
+    {
+      "id": "distribucion",
+      "title": "Distribución de Pedidos",
+      "subtitle": "Aplicación de Pedidos y Entregas",
+      "cardImage": "assets/img/ventas_img/15.png",
+      "detailTitle": "Distribución de Pedidos y Entregas",
+      "images": [
+        "assets/img/ventas_img/15.png",
+        "assets/img/ventas_img/16.png",
+        "assets/img/ventas_img/17.png",
+        "assets/img/ventas_img/19.png",
+        "assets/img/ventas_img/20.png",
+        "assets/img/ventas_img/21.png",
+        "assets/img/ventas_img/22.png"
+      ],
+      "tags": [
+        { "name": "Flutter", "type": "frontend", "delay": 200 },
+        { "name": "DDD", "type": "frontend", "delay": 200 },
+        { "name": "Git/GitHub", "type": "backend", "delay": 300 },
+        { "name": "Node.js", "type": "backend", "delay": 300 },
+        { "name": "Jenkins", "type": "backend", "delay": 300 },
+        { "name": "Socket.IO", "type": "database", "delay": 300 },
+        { "name": "PostgreSQL", "type": "database", "delay": 500 },
+        { "name": "API REST", "type": "tools", "delay": 600 },
+        { "name": "Full Stack", "type": "role", "delay": 700 }
+      ],
+      "description": [
+        "Aplicación para gestionar la distribución de pedidos, facilitando el seguimiento y entrega de productos en tiempo real.",
+        "Desarrollada con Flutter siguiendo arquitectura DDD, backend en Node.js, autenticación JWT, API REST, base de datos PostgreSQL y despliegue con Docker."
+      ],
+      "modules": [
+        { "icon": "fas fa-sign-in-alt", "color": "#e74c3c", "text": "Autenticación" },
+        { "icon": "fas fa-clipboard-list", "color": "#3498db", "text": "Despachos" },
+        { "icon": "fas fa-box-open", "color": "#27ae60", "text": "Entregas" },
+        { "icon": "fas fa-file-invoice", "color": "#9b59b6", "text": "Preventas" },
+        { "icon": "fas fa-route", "color": "#d35400", "text": "Rutas" },
+        { "icon": "fas fa-dollar-sign", "color": "#e67e22", "text": "Ventas" }
+      ]
     }
   ]
   

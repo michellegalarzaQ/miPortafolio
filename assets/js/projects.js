@@ -2,7 +2,7 @@ fetch('assets/data/projects.json')
   .then(res => res.json())
   .then(projects => {
 
-    const techs = ["Angular", "Node.js", "JWT", "API REST", "MySQL", "Docker", "PDFMake", "Flutter", "Clean Architecture", "Laravel", "Swagger", "React"];
+    const techs = ["Angular", "Node.js", "JWT", "API REST", "MySQL", "Docker", "PDFMake", "Flutter", "Clean Architecture", "Laravel", "Swagger", "React", "PHP"];
     const regex = new RegExp(`\\b(${techs.join("|")})\\b`, "g");
 
     /* ===== INDEX ===== */
